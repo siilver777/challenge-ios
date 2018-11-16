@@ -3,7 +3,7 @@
 ## Coding Survey
 
 Go to https://www.hackingwithswift.com/test and responds to intermediate swift coding test.
-Send us the given url when you finished.
+Send us the given url when you finished. Take your time to answer, this is not timed.
 
 ## Coding Test
 
@@ -21,6 +21,12 @@ When running, the application should list all banks, separated by countries. We 
 The code must be well architectured, and use some clean code best practice.  Regarding the design, you are free to do it however you want to. Don’t worry about the final execution, the most important is too check how you’re thinking and how you dive into new project. Keep in mind your best naming practices.
 
 We are not really found of 100% coverage but well-written and well-placed unit tests would be really appreciated.
+
+The exercise is not timed but please don't spend more than few hours on.  
+
+Once you're done, please send your **entire project/workspace folder** to **nicolas.c@bankin.com** with the following syntax: **<firstname_lastname_ios_challenge>**. Feel free to add any notes, explanations or/and feedback.  
+
+I'm available to the same mail adress for any questions or encountered issues. **Don't hesitate**.  
 
 #### *Bonus*
 
