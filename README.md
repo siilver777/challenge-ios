@@ -1,9 +1,5 @@
 # iOS Challenge
 
-## Coding Survey
-
-Go to https://www.hackingwithswift.com/test and complete the survey.
-
 ## Coding Test
 
 #### *Brief*
