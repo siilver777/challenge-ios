@@ -2,19 +2,18 @@
 
 ## Coding Survey
 
-Go to https://www.hackingwithswift.com/test and responds to intermediate swift coding test.
-Send us the given url when you finished. Take your time to answer, this is not timed.
+Go to https://www.hackingwithswift.com/test and complete the survey.
 
 ## Coding Test
 
 #### *Brief*
 
-We would like you to recreate the bank list in a brand new iOS Swift project.
+We would like you to recreate the bank list in a brand new iOandS Swift project.
 
 API Bank List Endpoint Documentation link : **https://docs.bridgeapi.io/v2018-06-15/reference#list-banks**  
 Please don’t use the documentation API url. Use the following instead : **https://sync-qa.bankin.com/banks**  
-API client id:  
-API client secret:  
+API client id: *Will be given*  
+API client secret: *Will be given*  
 
 When running, the application should list all banks, separated by countries. We would appreciate to see the current user local country section on top. You’re completely free to design your model based on API JSON data.
 
@@ -24,7 +23,7 @@ We are not really found of 100% coverage but well-written and well-placed unit t
 
 The exercise is not timed but please don't spend more than few hours on.  
 
-Once you're done, please send your **entire project/workspace folder** to **nicolas.c@bankin.com** with the following syntax: **<firstname_lastname_ios_challenge>**. Feel free to add any notes, explanations or/and feedback.  
+Once you're done, please send your **entire project/workspace folder** to the given email with the following syntax: **<firstname_lastname_ios_challenge>**. Feel free to add any notes, explanations or/and feedback.  
 
 I'm available to the same mail adress for any questions or encountered issues. **Don't hesitate**.  
 
