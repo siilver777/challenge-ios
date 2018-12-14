@@ -7,7 +7,7 @@
 We would like you to recreate the bank list in a brand new iOandS Swift project.
 
 API Bank List Endpoint Documentation link : **https://docs.bridgeapi.io/v2018-06-15/reference#list-banks**  
-Please don’t use the documentation API url. Use the following instead : **https://sync-qa.bankin.com/banks**  
+Please use the following API url: **https://sync.bankin.com/banks**  
 API client id: *Will be given*  
 API client secret: *Will be given*  
 
