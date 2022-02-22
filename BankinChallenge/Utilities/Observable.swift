@@ -10,8 +10,9 @@ import Foundation
 @propertyWrapper class Observable<T> {
     var wrappedValue: T {
         didSet {
-            queue.async { [unowned self] in
-                self.listener?(wrappedValue)
+            queue.async { [weak self] in
+                guard let wrappedValue = self?.wrappedValue else { return }
+                self?.listener?(wrappedValue)
             }
         }
     }

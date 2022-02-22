@@ -20,11 +20,16 @@ class BanksViewController: UIViewController {
         return view
     }()
     
+    private lazy var refreshControl: UIRefreshControl = {
+        let view = UIRefreshControl()
+        view.addTarget(self, action: #selector(refresh), for: .valueChanged)
+        return view
+    }()
+    
     override func loadView() {
         super.loadView()
         
         view.backgroundColor = .systemBackground
-        
         view.addSubview(tableView)
         
         NSLayoutConstraint.activate([
@@ -41,12 +46,21 @@ class BanksViewController: UIViewController {
         
         adapter = BanksAdapter(delegate: self)
         tableView.dataSource = adapter
+        tableView.refreshControl = refreshControl
         
         viewModel.$bankSections.bind { [weak self] _ in
             self?.tableView.reloadData()
         }
         
-        viewModel.fetchData()
+        refresh()
+    }
+    
+    @objc private func refresh() {
+        viewModel.fetchData { [weak self] in
+            DispatchQueue.main.async {
+                self?.refreshControl.endRefreshing()
+            }
+        }
     }
 }
 
